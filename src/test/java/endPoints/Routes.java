@@ -1,4 +1,4 @@
-package endPoints;
+/*package endPoints;
 
 public class Routes {
 	
@@ -13,3 +13,4 @@ public class Routes {
 	
 
 }
+*/
