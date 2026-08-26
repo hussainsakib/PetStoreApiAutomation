@@ -208,11 +208,11 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;utilities.ExtentReportManager&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;test_Cases.UserTestsDDT&quot;/&gt;
     &lt;/classes&gt;
@@ -258,27 +258,27 @@ data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testPostUser')
 data.setCell(0, 2, 'test_Cases.UserTestsDDT')
-data.setCell(0, 3, 2809);
+data.setCell(0, 3, 2703);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testGetUser')
 data.setCell(1, 2, 'test_Cases.UserTestsDDT')
-data.setCell(1, 3, 1328);
+data.setCell(1, 3, 1325);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testPostUser')
+data.setCell(2, 1, 'testGetUser')
 data.setCell(2, 2, 'test_Cases.UserTestsDDT')
-data.setCell(2, 3, 1274);
+data.setCell(2, 3, 1316);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'testPostUser')
 data.setCell(3, 2, 'test_Cases.UserTestsDDT')
-data.setCell(3, 3, 1270);
+data.setCell(3, 3, 1260);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'testGetUser')
+data.setCell(4, 1, 'testPostUser')
 data.setCell(4, 2, 'test_Cases.UserTestsDDT')
-data.setCell(4, 3, 1254);
+data.setCell(4, 3, 1255);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'testGetUser')
 data.setCell(5, 2, 'test_Cases.UserTestsDDT')
-data.setCell(5, 3, 1234);
+data.setCell(5, 3, 1252);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -316,23 +316,23 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testPostUser(1020, Test@2, john, william, john@gmail.com, J@12345, 2324522)</span>
-                <span class="method-start">2816 ms</span>
+                <span class="method-start">2714 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testPostUser(1030, Test@3, Scott, brain, bscott@gmail.com, B@12345, 7635342)</span>
-                <span class="method-start">4093 ms</span>
+                <span class="method-start">3985 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testGetUser(Test@1)</span>
-                <span class="method-start">5424 ms</span>
+                <span class="method-start">5300 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testGetUser(Test@2)</span>
-                <span class="method-start">6753 ms</span>
+                <span class="method-start">6626 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testGetUser(Test@3)</span>
-                <span class="method-start">8008 ms</span>
+                <span class="method-start">7878 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
